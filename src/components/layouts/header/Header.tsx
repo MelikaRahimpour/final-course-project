@@ -9,10 +9,10 @@ export function Header() {
                 <SearchForm/>
                 <ul className="hidden lg:flex gap-5">
                     <li className="flex gap-2 cursor-pointer">
-                        <IconBox linkClassName={"flex item-center"} icon={"icon-user"} size={24} link={'#'} title={"Account"} hideTitleOnMobile={true} titleClassName={"text-medium text-gray-500 font-lato ml-1"}/>
+                        <IconBox icon={"icon-user"} size={24} link={'#'} title={"Account"} hideTitleOnMobile={true} titleClassName={"text-medium text-gray-500 font-lato ml-1"}/>
                     </li>
                     <li className="flex gap-2 cursor-pointer">
-                        <IconBox linkClassName={"flex item-center"} icon={"icon-shopping-cart"} size={24} link={'#'} title={"Card"} hideTitleOnMobile={true} titleClassName={"text-medium text-gray-500 font-lato ml-1"}/>
+                        <IconBox icon={"icon-shopping-cart"} size={24} link={'#'} title={"Card"} hideTitleOnMobile={true} titleClassName={"text-medium text-gray-500 font-lato ml-1"}/>
                     </li>
                 </ul>
                 <button id="menu_btn" className="flex flex-col justify-between py-[4px] lg:hidden w-[24px] h-[24px]">
