@@ -11,7 +11,7 @@ export function Menu() {
                 <IconBox icon={"icon-apps"} size={24} title={"Browse All Categories"} link={"#"} titleClassName={"text-medium ml-1"}/>
                 <IconBox icon={"icon-angle-small-down"} size={24}/>
                 <div id="all_categories_box"
-                     className=" absolute z-20 bg-white left-0 top-16 w-[500px] rounded-[5px] border-[1px] border-green-300 p-[30px] hover:cursor-default">
+                     className="hidden absolute z-20 bg-white left-0 top-16 w-[500px] rounded-[5px] border-[1px] border-green-300 p-[30px] hover:cursor-default">
                     <div id="all_cat_inner_box" className="flex flex-wrap justify-between gap-y-[15px]">
                         {
                             browsCategoriesMock.map((item, index) => {
