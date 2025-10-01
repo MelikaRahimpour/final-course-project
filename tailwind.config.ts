@@ -17,7 +17,6 @@ export default {
         'c-lg': '14px 14px 36px 0px rgba(85, 85, 85, 0.22)'
       },
       fontFamily: {
-        quickSand: ['Quicksand', 'sans-serif'],
         lato: ['Lato', 'sans-serif']
       },
       fontSize: {
