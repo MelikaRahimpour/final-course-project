@@ -30,7 +30,6 @@ export const popularProducts = [
         unit: 'gram' ,
         price: 3000,
         sale_price: 200,
-        label: ''
     },
     {
         title: 'Blue Diamond Almonds Lightly Salted Vegetables' ,
@@ -52,6 +51,5 @@ export const popularProducts = [
         unit: 'gram' ,
         price: 4000,
         sale_price: 200,
-        label: '17%'
     }
 ]

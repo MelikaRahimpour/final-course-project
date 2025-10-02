@@ -30,7 +30,6 @@ export const popularFruits = [
         unit: 'gram' ,
         price: 22000,
         sale_price: 700,
-        label: '17%'
     },
     {
         title: 'All Natural Italian-Style Chicken Meatballs' ,
@@ -52,7 +51,6 @@ export const popularFruits = [
         unit: 'gram' ,
         price: 5000,
         sale_price: 200,
-        label: ''
     },
     {
         title: 'Angie’s Boomchickapop Sweet & Salty Kettle Corn' ,
